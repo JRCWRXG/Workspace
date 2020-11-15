@@ -1,0 +1,13 @@
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\bin\Debug\netcoreapp3.1\Nota_Aluno.exe
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\bin\Debug\netcoreapp3.1\Nota_Aluno.deps.json
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\bin\Debug\netcoreapp3.1\Nota_Aluno.runtimeconfig.json
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\bin\Debug\netcoreapp3.1\Nota_Aluno.runtimeconfig.dev.json
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\bin\Debug\netcoreapp3.1\Nota_Aluno.dll
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\bin\Debug\netcoreapp3.1\Nota_Aluno.pdb
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.csprojAssemblyReference.cache
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.csproj.CoreCompileInputs.cache
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.AssemblyInfoInputs.cache
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.AssemblyInfo.cs
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.dll
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.pdb
+C:\Users\Jrcam\source\repos\Nota_Aluno\Nota_Aluno\obj\Debug\netcoreapp3.1\Nota_Aluno.genruntimeconfig.cache

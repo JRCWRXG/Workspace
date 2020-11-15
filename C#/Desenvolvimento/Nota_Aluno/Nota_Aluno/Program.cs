@@ -7,6 +7,7 @@ namespace Nota_Aluno
         static void Main(string[] args)
         {
             //comentario
+           
             Console.WriteLine("Digite a nota do primeiiro bimestre!");
             int nota_1 = Convert.ToInt32(Console.ReadLine());
 

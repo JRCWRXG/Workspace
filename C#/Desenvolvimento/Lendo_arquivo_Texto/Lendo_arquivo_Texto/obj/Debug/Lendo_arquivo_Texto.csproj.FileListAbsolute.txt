@@ -1,0 +1,11 @@
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.csprojAssemblyReference.cache
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.frmLeitura_arquivo.resources
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.Properties.Resources.resources
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.csproj.GenerateResource.cache
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.csproj.CoreCompileInputs.cache
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\bin\Debug\Lendo_arquivo_Texto.exe.config
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\bin\Debug\Lendo_arquivo_Texto.exe
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\bin\Debug\Lendo_arquivo_Texto.pdb
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.exe
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.pdb
+C:\Workspace\C#\Desenvolvimento\Lendo_arquivo_Texto\Lendo_arquivo_Texto\obj\Debug\Lendo_arquivo_Texto.frmMenu.resources

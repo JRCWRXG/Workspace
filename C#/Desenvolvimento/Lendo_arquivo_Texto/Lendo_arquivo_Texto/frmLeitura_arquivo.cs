@@ -24,27 +24,27 @@ namespace Lendo_arquivo_Texto
             MetodoParaLerLinhaArquivo();
         }
 
-        //private string arquivo;
+        private string arquivo;
         private string mensagem;
         List<string> mensagemLinha = new List<string>();
 
-        string arquivo = @"C:\Users\Jrcam\OneDrive\Área de Trabalho\nomes.txt";
+      //  string arquivo = @"C:\Users\Jrcam\OneDrive\Área de Trabalho\nomes.txt";
         private void MetodoParaLerLinhaArquivo()
         {
 
-
+            string teste;
             //https://www.devmedia.com.br/criacao-dos-formularios-filhos-sistema-simples-de-uma-biblioteca-parte-2/18050
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                //openFileDialog.Title = "xxxxxxxxxo";
-                //openFileDialog.InitialDirectory = @"c:\Program Files"; //Se ja quiser em abrir   em um diretorio especifico
-                // openFileDialog.Filter = "All files (*.*)|*.*|All files (*.*)|*.*";
-                //openFileDialog.FilterIndex = 2;
-                //openFileDialog.RestoreDirectory = true;
-                //if (openFileDialog.ShowDialog() == DialogResult.OK)
-                //    arquivo = openFileDialog.FileName;
-                //txtLocal.Text = arquivo;
+                openFileDialog.Title = "xxxxxxxxxo";
+                openFileDialog.InitialDirectory = @"c:\Program Files"; //Se ja quiser em abrir   em um diretorio especifico
+                openFileDialog.Filter = "All files (*.*)|*.*|All files (*.*)|*.*";
+                openFileDialog.FilterIndex = 2;
+                openFileDialog.RestoreDirectory = true;
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    arquivo = openFileDialog.FileName;
+                txtLocal.Text = arquivo;
             }
           
             
@@ -78,6 +78,8 @@ namespace Lendo_arquivo_Texto
         private void btnGrava_Click(object sender, EventArgs e)
         {
             string nome = "jose roberto de campos";
+          
+            
             foreach (string item in mensagemLinha)
             {
                 listBox2.Items.Add("item adicionado: " + item);
@@ -92,6 +94,11 @@ namespace Lendo_arquivo_Texto
                     MessageBox.Show("esse cara é bom");
                 }
             }
+        }
+
+        private void frmLeitura_arquivo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

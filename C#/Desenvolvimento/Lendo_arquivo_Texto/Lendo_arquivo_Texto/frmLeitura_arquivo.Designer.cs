@@ -114,6 +114,7 @@
             this.Controls.Add(this.btnAbrir);
             this.Name = "frmLeitura_arquivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.frmLeitura_arquivo_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

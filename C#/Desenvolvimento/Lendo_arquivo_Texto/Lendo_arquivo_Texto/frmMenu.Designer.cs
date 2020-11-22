@@ -63,7 +63,7 @@
             // lerArquivoToolStripMenuItem
             // 
             this.lerArquivoToolStripMenuItem.Name = "lerArquivoToolStripMenuItem";
-            this.lerArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lerArquivoToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.lerArquivoToolStripMenuItem.Text = "Ler arquivo";
             this.lerArquivoToolStripMenuItem.Click += new System.EventHandler(this.lerArquivoToolStripMenuItem_Click);
             // 
@@ -77,7 +77,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmMenu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

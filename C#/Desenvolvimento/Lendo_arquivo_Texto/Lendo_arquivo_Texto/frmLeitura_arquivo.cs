@@ -14,9 +14,11 @@ namespace Lendo_arquivo_Texto
 {
     public partial class frmLeitura_arquivo : Form
     {
+        Util objUtil = new Util();
         public frmLeitura_arquivo()
         {
             InitializeComponent();
+
         }
 
         private void btnAbrir_Click(object sender, EventArgs e)
@@ -25,80 +27,47 @@ namespace Lendo_arquivo_Texto
         }
 
         private string arquivo;
-        private string mensagem;
         List<string> mensagemLinha = new List<string>();
 
-      //  string arquivo = @"C:\Users\Jrcam\OneDrive\Área de Trabalho\nomes.txt";
+
         private void MetodoParaLerLinhaArquivo()
         {
+            try
 
-            string teste;
-            //https://www.devmedia.com.br/criacao-dos-formularios-filhos-sistema-simples-de-uma-biblioteca-parte-2/18050
+            {
+                arquivo = objUtil.Open_FileDialog();
 
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.Title = "xxxxxxxxxo";
-                openFileDialog.InitialDirectory = @"c:\Program Files"; //Se ja quiser em abrir   em um diretorio especifico
-                openFileDialog.Filter = "All files (*.*)|*.*|All files (*.*)|*.*";
-                openFileDialog.FilterIndex = 2;
-                openFileDialog.RestoreDirectory = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                    arquivo = openFileDialog.FileName;
-                txtLocal.Text = arquivo;
-            }
-          
-            
-            if (String.IsNullOrEmpty(arquivo))
-            {
-                MessageBox.Show("Arquivo Invalido", "Salvar Como", MessageBoxButtons.OK);
-            }
-            else
-            {
-                //    using (StreamReader texto = new StreamReader(arquivo))
-                StreamReader texto = new StreamReader(arquivo);
-
+                if (String.IsNullOrEmpty(arquivo))
                 {
-                    while ((mensagem = texto.ReadLine()) != null)
-                    {
-                        mensagemLinha.Add(mensagem);
+                    MessageBox.Show("Arquivo Invalido", "Salvar Como", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    mensagemLinha = objUtil.Reader(arquivo);
 
-                        listBox1.Items.Add(mensagem);
+                    foreach (var item in mensagemLinha)
+                    {
+                        listBox1.Items.Add(item);
+
+                        if (item.Equals("jose roberto de campos"))
+                        {
+                            MessageBox.Show("merda");
+                        }
+
+                        if (item.Contains("jose"))
+                        {
+                            MessageBox.Show("esse cara é bom");
+                        }
                     }
                 }
-                int registro = mensagemLinha.Count; //total de linhas do arquivo.
-                for (int i = 0; i < mensagemLinha.Count; i++)
-                {
-                    //TextBox textbox1 = new TextBox();
-                    //textbox1.Text += mensagemLinha[i];
-                    //File.WriteAllText(arquivo, mensagemLinha[i] + "1");
-                }
-            }
-        }
 
-        private void btnGrava_Click(object sender, EventArgs e)
-        {
-            string nome = "jose roberto de campos";
-          
-            
-            foreach (string item in mensagemLinha)
+            }
+            catch (Exception ex)
             {
-                listBox2.Items.Add("item adicionado: " + item);
 
-                if (item.Equals("jose roberto de campos"))
-                {
-                    MessageBox.Show("merda");
-                }
-
-                if (item.Contains("jose"))
-                {
-                    MessageBox.Show("esse cara é bom");
-                }
+                MessageBox.Show("Meu amigo algo deu errado! ", ex.Message);
             }
         }
 
-        private void frmLeitura_arquivo_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

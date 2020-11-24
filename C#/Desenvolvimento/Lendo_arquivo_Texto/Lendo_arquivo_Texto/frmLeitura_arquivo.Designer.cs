@@ -33,8 +33,6 @@
             this.txtLocal = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.btnGrava = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +51,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(6, 19);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(122, 251);
+            this.listBox1.Size = new System.Drawing.Size(331, 251);
             this.listBox1.TabIndex = 1;
             // 
             // txtLocal
@@ -74,47 +72,26 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listBox2);
             this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Location = new System.Drawing.Point(15, 108);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(378, 330);
+            this.groupBox1.Size = new System.Drawing.Size(353, 282);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista";
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(155, 19);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(198, 251);
-            this.listBox2.TabIndex = 2;
-            // 
-            // btnGrava
-            // 
-            this.btnGrava.Location = new System.Drawing.Point(181, 12);
-            this.btnGrava.Name = "btnGrava";
-            this.btnGrava.Size = new System.Drawing.Size(75, 23);
-            this.btnGrava.TabIndex = 5;
-            this.btnGrava.Text = "Grava";
-            this.btnGrava.UseVisualStyleBackColor = true;
-            this.btnGrava.Click += new System.EventHandler(this.btnGrava_Click);
             // 
             // frmLeitura_arquivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(386, 385);
-            this.Controls.Add(this.btnGrava);
+            this.ClientSize = new System.Drawing.Size(375, 396);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtLocal);
             this.Controls.Add(this.btnAbrir);
             this.Name = "frmLeitura_arquivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.frmLeitura_arquivo_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -128,7 +105,5 @@
         private System.Windows.Forms.TextBox txtLocal;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Button btnGrava;
     }
 }

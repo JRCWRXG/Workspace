@@ -1,0 +1,7 @@
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\bin\Debug\Laco_aninhado.exe.config
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\bin\Debug\Laco_aninhado.exe
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\bin\Debug\Laco_aninhado.pdb
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\obj\Debug\Laco_aninhado.csproj.CoreCompileInputs.cache
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\obj\Debug\Laco_aninhado.exe
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\obj\Debug\Laco_aninhado.pdb
+C:\Users\Jrcam\source\repos\Laco_aninhado\Laco_aninhado\obj\Debug\Laco_aninhado.csprojAssemblyReference.cache

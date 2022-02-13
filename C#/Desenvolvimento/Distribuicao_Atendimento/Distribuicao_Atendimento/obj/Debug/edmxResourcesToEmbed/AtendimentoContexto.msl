@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OBZEModelStoreContainer" CdmEntityContainer="OBZEEntities">
+    <EntitySetMapping Name="tb_atendente">
+      <EntityTypeMapping TypeName="OBZEModel.tb_atendente">
+        <MappingFragment StoreEntitySet="tb_atendente">
+          <ScalarProperty Name="id_atendente" ColumnName="id_atendente" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="status_atendente" ColumnName="status_atendente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_atendimento">
+      <EntityTypeMapping TypeName="OBZEModel.tb_atendimento">
+        <MappingFragment StoreEntitySet="tb_atendimento">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="entrada" ColumnName="entrada" />
+          <ScalarProperty Name="saida" ColumnName="saida" />
+          <ScalarProperty Name="prioridade" ColumnName="prioridade" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="status_atendimento" ColumnName="status_atendimento" />
+          <ScalarProperty Name="cliente" ColumnName="cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_prioridade">
+      <EntityTypeMapping TypeName="OBZEModel.tb_prioridade">
+        <MappingFragment StoreEntitySet="tb_prioridade">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="prioridade" ColumnName="prioridade" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_status_atendente">
+      <EntityTypeMapping TypeName="OBZEModel.tb_status_atendente">
+        <MappingFragment StoreEntitySet="tb_status_atendente">
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="situacao" ColumnName="situacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_status_atendimento">
+      <EntityTypeMapping TypeName="OBZEModel.tb_status_atendimento">
+        <MappingFragment StoreEntitySet="tb_status_atendimento">
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="situacao" ColumnName="situacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

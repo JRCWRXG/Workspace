@@ -1,0 +1,11 @@
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\Distribuicao_Atendimento.exe.config
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\Distribuicao_Atendimento.exe
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\Distribuicao_Atendimento.pdb
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\obj\Debug\Distribuicao_Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\obj\Debug\Distribuicao_Atendimento.exe
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\obj\Debug\Distribuicao_Atendimento.pdb
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\EntityFramework.dll
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\EntityFramework.xml
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jrcam\source\repos\Distribuicao_Atendimento\Distribuicao_Atendimento\obj\Debug\Distribuicao_Atendimento.csproj.CopyComplete

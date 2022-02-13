@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OBZEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tb_atendente">
+    <Key>
+      <PropertyRef Name="id_atendente" />
+    </Key>
+    <Property Name="id_atendente" Type="Int32" Nullable="false" />
+    <Property Name="nome" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="status_atendente" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_atendimento">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="entrada" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="saida" Type="DateTime" Precision="3" />
+    <Property Name="prioridade" Type="Int32" Nullable="false" />
+    <Property Name="senha" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="status_atendimento" Type="Int32" Nullable="false" />
+    <Property Name="cliente" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_prioridade">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="prioridade" Type="Int32" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_status_atendente">
+    <Key>
+      <PropertyRef Name="id_status" />
+    </Key>
+    <Property Name="id_status" Type="Int32" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="situacao" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_status_atendimento">
+    <Key>
+      <PropertyRef Name="id_status" />
+    </Key>
+    <Property Name="id_status" Type="Int32" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="situacao" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="OBZEEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_atendente" EntityType="Self.tb_atendente" />
+    <EntitySet Name="tb_atendimento" EntityType="Self.tb_atendimento" />
+    <EntitySet Name="tb_prioridade" EntityType="Self.tb_prioridade" />
+    <EntitySet Name="tb_status_atendente" EntityType="Self.tb_status_atendente" />
+    <EntitySet Name="tb_status_atendimento" EntityType="Self.tb_status_atendimento" />
+  </EntityContainer>
+</Schema>
